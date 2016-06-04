@@ -10,7 +10,7 @@ function collect_same_elements(x,y)
        {
 		  if(m==y.value[j])
            {	end.push(y.value[j]);
-		         flag=value;
+		         flag=j;
 				 break;
 			}
        }
