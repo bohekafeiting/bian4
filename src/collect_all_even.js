@@ -2,16 +2,15 @@
 function collect_same_elements(x,y)
 {
   end=new Array();
-  var flag=0,m;
+  var m;
   for(var i in x)
   {
      m=x[i].key;
-     for(j=flag;j<y.value.length;j++)	
+     for(j=0;j<y.value.length;j++)	
        {
 		  if(m==y.value[j])
            {	end.push(y.value[j]);
-		         flag=j;
-				 break;
+		       break;
 			}
        }
   }
